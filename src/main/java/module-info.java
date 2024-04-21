@@ -3,7 +3,7 @@ module com.tonki {
     requires javafx.fxml;
     requires org.controlsfx.controls;
 
-    requires bluecove;
+    requires bluecove; // Replace 'requires bluecove;' with 'requires bluecove.module.name;'
     requires javafx.graphics;
     
 
