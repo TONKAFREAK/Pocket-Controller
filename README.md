@@ -18,11 +18,11 @@ Before running this application, ensure you have the following installed:
 
 ## Contributing
 Contributions to this project are welcome! Please consider the following steps:
-1.Fork the repository.
-2.Create a new branch for your feature (git checkout -b feature/fooBar).
-3.Commit your changes (git commit -am 'Add some fooBar').
-4.Push to the branch (git push origin feature/fooBar).
-5.Create a new Pull Request.
+1. Fork the repository.
+2. Create a new branch for your feature (git checkout -b feature/fooBar).
+3. Commit your changes (git commit -am 'Add some fooBar').
+4. Push to the branch (git push origin feature/fooBar).
+5. Create a new Pull Request.
 
 ## License
 This project is licensed under the MIT License.
