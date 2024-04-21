@@ -1,0 +1,68 @@
+.root, .menu-bar, .menu, .context-menu {
+    -fx-background-color: #181818; 
+}
+
+.label,  .menu-item {
+    -fx-background-color: #181818; 
+    -fx-text-fill: white; 
+    -fx-border-color: #181818; 
+    -fx-control-inner-background: #202020; 
+
+}
+
+.list-view{
+    -fx-background-color: #181818; 
+    -fx-text-fill: white; 
+    -fx-border-width: 5px 0 0 0;
+    -fx-border-color: #3F3F46; 
+    -fx-control-inner-background: #202020; 
+}
+
+.text-area {
+    -fx-control-inner-background: #181818; 
+    -fx-text-fill: white; 
+    -fx-background-insets: 0; 
+    -fx-background-color: #181818; 
+}
+
+.text-area:focused{
+    -fx-border-color: #3F3F46; 
+    -fx-border-width: 0px;
+}
+
+.button{
+    -fx-background-color: #181818; 
+    -fx-text-fill: white; 
+    -fx-border-color: #3F3F46; 
+
+}
+
+.menu-item:focused, .menu-item:hover {
+    -fx-background-color: #202020; 
+    -fx-text-fill: white;
+}
+
+.status-bar {
+    -fx-background-color: #181818;
+    -fx-text-fill: white;
+}
+
+.pane, .anchor-pane, .border-pane, .vbox, .hbox, .stack-pane, .flow-pane, .grid-pane {
+    -fx-background-color: #181818;
+    
+}
+
+.button:hover {
+    -fx-background-color: #1F1F1F; 
+}
+
+.list-cell:filled:selected, .list-cell:filled:selected:hover {
+    -fx-background-color: #202020; 
+    -fx-text-fill: white;
+    -fx-border-color: #202020;
+}
+
+.list-cell {
+    -fx-background-color: #181818; 
+    -fx-text-fill: white; 
+}
