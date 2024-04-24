@@ -28,7 +28,7 @@ public class BluetoothConnection {
         try {
 
             String connectionString = "btspp://" + address + ":1;authenticate=false;encrypt=false;master=false";
-            StreamConnection connection = (StreamConnection) Connector.open(connectionString);
+            connection = (StreamConnection) Connector.open(connectionString);
             outStream = connection.openOutputStream();
             inStream = connection.openInputStream();
             setConnected(true);
@@ -41,6 +41,9 @@ public class BluetoothConnection {
     }
 
     public void disconnect(@SuppressWarnings("exports") StatusBar status) throws IOException {
+
+        connection.close();
+
         if (outStream != null) {
             outStream.close();
         }
